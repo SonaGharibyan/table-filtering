@@ -1,0 +1,26 @@
+.products-filters__filters {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+
+  .product-filters__name,
+  .product-filters__brand,
+  .product-filters__category {
+    flex: 1;
+  }
+
+  .product-filters__price {
+    flex: 2;
+  }
+}
+
+.product-filters__drawer {
+  .products-filters__filters {
+    flex-direction: column;
+  }
+}
+
+.product-filters__add-button{
+  margin: 5px;
+  float: right;
+}
